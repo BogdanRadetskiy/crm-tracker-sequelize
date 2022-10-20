@@ -1,0 +1,5 @@
+const path = require('path');
+module.exports = {
+    'config':path.resolve('src/shared/configs','database.config.ts'),
+    'models-path':path.resolve('src/shared/models')
+}
